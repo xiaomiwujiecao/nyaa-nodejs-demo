@@ -17,6 +17,7 @@
 ```shell
 $ git clone https://github.com/XadillaX/nyaa-nodejs-demo.git --recurse-submodules
 ```
+ 如果你第一次克隆的时候没有带上 `--recurse-submodules`,也可以在pull的时候带上这个参数
 
 > `--recurse-submodules` 参数允许你连通 submodule 一起克隆下来。
 >
