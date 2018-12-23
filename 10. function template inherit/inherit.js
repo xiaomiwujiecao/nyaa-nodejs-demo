@@ -1,8 +1,9 @@
-var  util = require('util')
+var util = require('util')
+
 // console.log(util)
 function Pet() {
   this.name = 'unkown'
-  this.type='animal'
+  this.type = 'animal'
 }
 
 Pet.prototype.summary = function () {
@@ -20,7 +21,7 @@ function Dog() {
 }
 
 
-util.inherits(Dog,Pet)
+util.inherits(Dog, Pet)
 
 var dog = new Dog()
 dog.setName('jj')
