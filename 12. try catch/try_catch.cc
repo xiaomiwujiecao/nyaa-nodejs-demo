@@ -36,8 +36,10 @@ void Get(const FunctionCallbackInfo<Value>& args)
     if(maybe_obj.IsEmpty() || maybe_key.IsEmpty())
     {
         if(trycatch.HasCaught())
+            // 抛出异常
             trycatch.ReThrow();
         else
+            // 两个值都是空 直接抛出 undefined
             args.GetReturnValue().Set(v8::Undefined(isolate));
 
         return;
