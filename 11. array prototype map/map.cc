@@ -56,6 +56,6 @@ void Init(Local<Object> exports, Local<Object> module)
             FunctionTemplate::New(isolate, Map)->GetFunction());
 }
 
-NODE_MODULE(_template, Init)
+NODE_MODULE(reverse, Init)
 
 }
