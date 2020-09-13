@@ -4,7 +4,7 @@
     "sources": [ "1/addon.cc", "1/myobject.cc" ]
   }, {
     "target_name": "addon2",
-    "sources": [ "2/addon.cc", "2/myobject.cc" ]
+    "sources": [ "2/addon.cc", " 2/myobject.cc" ]
   }, {
     "target_name": "addon3",
     "sources": [ "3/addon.cc", "3/myobject.cc" ]

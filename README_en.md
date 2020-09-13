@@ -28,7 +28,7 @@ $ git clone https://github.com/XadillaX/nyaa-nodejs-demo.git --recurse-submodule
 
 ## Quick Navigation
 
-1. [first build](1.%20first%20build)：「1.4.2. node-gyp」
+1. [first build](first_build)：「1.4.2. node-gyp」
 2. [cpp entry](2.%20cpp%20entry)：「2.2.2. Node.js Module Loading Principle」
 3. [function template](3.%20function%20template)：「3.6.1. Function Template」
 4. [object template](4.%20object%20template)：「3.6.2. Object Template」

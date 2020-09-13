@@ -1,5 +1,7 @@
-#include <node.h>
-
+//#include <node.h>
+// it should be ignored when compile the code
+#include "node.h"
+#include "v8.h"
 namespace __first__ {
 
 using v8::FunctionCallbackInfo;
